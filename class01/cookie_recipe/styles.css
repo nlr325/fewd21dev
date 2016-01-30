@@ -1,0 +1,25 @@
+styles.css
+
+body {
+	background:#ffe;
+	border:5px solid black;
+}
+
+/* A comment goes here */
+
+img {
+	border:5px solid black;
+}
+
+/*h2 span {
+	color:#887;
+}*/
+
+a {
+	color:#900;
+}
+
+.auxHeader {
+	color:#887;
+}
+
