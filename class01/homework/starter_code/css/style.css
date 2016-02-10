@@ -1,11 +1,21 @@
 body {
-  font:georgia #05080C;
+  font-family: sans-serif;
+  color: #05080C;
+  font-size:18px;
+  line-height: 1.5;
+  margin:50px;
+  padding:50px;
+  border-top:5px solid #e6e6e6;
+  border-bottom:5px solid #e6e6e6;
 
 }
 
-nav .toc {
-  text-align: right;
+a:visited {
+  color:inherit;
+}
 
+a:hover {
+  color:#228dec; 
 }
 
 .commonstyles a {
@@ -24,11 +34,12 @@ nav .toc {
 }
 
 .commonstyles h2 {
+  color:#133d63;
 }
 
-.commonstyles h3 {
+/*.commonstyles h3 {
   margin-top: 42px;
-}
+}*/
 
 .commonstyles h4 {
   margin-bottom: 0;
@@ -37,6 +48,7 @@ nav .toc {
 .commonstyles p {
   margin-top: 0;
   margin-bottom: 27px;
+  font-family: georgia, times, serif;
 }
 
 .commonstyles ul {
@@ -60,7 +72,7 @@ nav .toc {
 .commonstyles img {
   margin-left: 20px;
   margin-bottom: 20px;
-  border: 1px solid #222222;
+  border: 5px solid #e6e6e6;
   padding: 5px;
   text-align: center
 }
@@ -74,10 +86,25 @@ nav .toc {
   max-width: 300px;
   float:right;
   margin: 0 0 20px 20px;
+  list-style-type: square;
+}
+
+.history {
+  overflow: hidden;
+}
+
+div {
+  background: f6f6f6;
+  width:350px
+  float: right;
+}
+
+.toc h2 {
+  color: #228dec;
 }
 
 .toc .toclevel-1 {
-
+  font-size:14px;
 }
 
 .toc .toclevel-1 > a {
@@ -85,11 +112,11 @@ nav .toc {
 }
 
 .toc .toclevel-2 {
-
+  font-size:12px;
+  color:gray;
 }
 
 .toc .toclevel-2 > a {
-
 }
 
 .datatable td {
@@ -98,4 +125,70 @@ nav .toc {
 
 .datatable td:first-child{
   text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.theader {
+  text-transform: uppercase;
+  font-family: georgia;
+  font-weight: lighter;
+  color: #g6g6g6;
+  padding-left: 10px;
+}
+
+img { 
+  border: 1px solid #000; 
+  padding: 5px; 
+}
+
+table {
+  padding:10px 10px 10px 0;
+  margin: 10px;
+  line-height: 2.0;
+}
+
+.post td:first-child {
+  font-size: 11px;
+}
+
+td {
+  padding-right: 45px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  font-size: 18px;
+  padding-right:45px;
+  color: #228dec;
+}
+
+.aside {
+  font-weight: bold;
+  padding-left: 50px;
+  font-size: 24px;
+  color: #228dec;
+  letter-spacing: 2px;
+  font-family: serif;
+}
+
+li {
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.citations {
+  padding-left: 50px;
+}
+
+.footnotes {
+  width: 600px;
+  height: 25px;
+  vertical-align: middle;
+  font-size: 11px;
+  padding-left: 25px;
+  padding-top: 10px;
+  background-color: #f6f6f6;
 }
