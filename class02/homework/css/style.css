@@ -55,14 +55,14 @@ body {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 24px;
     color: #ffffff;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 24px;
     color: #ffffff;
 }
 
@@ -76,9 +76,9 @@ h3 {
 a.button {
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 14px;
   border-radius: 5px;
-  padding: 10px 60px;
+  padding: 10px 10px;
   text-decoration: none;
   display: inline-block;
 }
@@ -128,6 +128,7 @@ footer a {
 #benefits p, li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
+  font-size: 13px;
   color: gray;
 }
 
@@ -136,6 +137,12 @@ footer a {
   font-weight: 100;
   font-style: italic;
   font-size: 18px;
+}
+
+#testimonials p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 50;
 }
 
 #yellow {
