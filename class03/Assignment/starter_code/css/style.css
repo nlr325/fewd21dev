@@ -14,3 +14,265 @@
      line-height: 0;
      height: 0;
 }
+
+div {
+	border-sizing: border-box;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background color: #f0efef;
+	overflow: hidden;
+	position: relative;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	background-color: #f0efef;
+}
+
+h1 {
+	font-size: 40px;
+	color: #043049;
+	margin: 0px 0px 20px 0px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 24px;
+	color: #606161;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 36px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 800;
+	color: #043049;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	margin: 5px 0px 20px 0px;
+}
+
+li a:hover {
+	color: #f9e42e;
+}
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+header {
+	background-color: #043049;
+	overflow: hidden;
+	padding: 40px 0px 40px 0px;
+}
+
+nav li {
+	float: left;
+}
+
+nav a:hover {
+	color: #ffffff;
+}
+
+div#hdr-lft {
+	float: left;
+}
+
+nav#hdr-rgt {
+	float: right;
+}
+
+div#hdr-lft a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #f9e42e;
+	font-size: 24px;
+	margin: 0px 40px 0px 0px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	padding: 12px 0px 0px 0px;
+}
+
+nav ul li:last-child a {
+	margin-right: 0px;
+}
+
+
+/******************************************
+/* CONTENT MAIN
+/*******************************************/
+
+#main {
+	padding-top: 70px;
+}
+
+div.content-left {
+	float: left;
+	width: 73%;
+}
+
+#main .post {
+	margin-bottom: 40px;
+	border-bottom: 1px solid #606161;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+
+#main .post:last-child {
+	margin-bottom: 80px;
+}
+
+.post h1 {
+	line-height: 48px;
+}
+
+a.more {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 24px;
+	color: #033048;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	display: block;
+	margin-top: 20px;
+}
+
+a.more:hover {
+	color: #98111d;
+}
+
+
+/******************************************
+/* SIDEBAR
+/*******************************************/
+
+div.content-right {
+	float: right;
+	width: 25%;
+}
+
+.content-right div {
+	margin-bottom: 30px;
+}
+
+#categories p a {
+	text-decoration: none;
+	color: #043049;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 36px;
+}
+
+#categories a:hover {
+	color: #98111d;
+}
+
+#about p {
+	color: #606161;
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+}
+
+#about p a {
+	text-decoration: none;
+	color: #033048;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#about a.learn:hover {
+	color: #98111d;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 70px 0px 50px 0px;
+}
+
+footer h1 {
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 0px 60px 0px;
+}
+
+i.fa {
+	color: #ffffff;
+	font-size: 48px;
+}
+
+footer i {
+	margin: 10px;
+}
+
+footer i:hover {
+	color: #f9e42e;
+}
+
+footer p {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	margin-top: 50px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+a.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover {
+	background-color: #98111d;
+}
+
+#yellow {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 40px;
+}
+
+.dark {
+  background-color: #033048;
+  color: #ffffff;
+}
