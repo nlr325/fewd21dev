@@ -161,6 +161,17 @@ a.more:hover {
 	color: #98111d;
 }
 
+.firstcharacter {
+	float: left;
+	color: #043049;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 12px;
+	padding-right: 10px;
+	padding-left: 5px;
+	font-family: 'Fugaz One', cursive;
+}
+
 
 /******************************************
 /* SIDEBAR
