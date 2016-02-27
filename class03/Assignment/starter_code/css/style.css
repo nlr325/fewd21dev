@@ -147,7 +147,7 @@ div.content-left {
 	line-height: 48px;
 }
 
-a.more {
+a.read-more {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 24px;
@@ -156,10 +156,19 @@ a.more {
 	text-align: right;
 	display: block;
 	margin-top: 20px;
+	cursor: pointer; 
 }
 
-a.more:hover {
+a.read-more:hover {
 	color: #98111d;
+}
+
+a.read-more span.less {
+	display: none;
+}
+
+.toggle {
+	display: none;
 }
 
 .firstcharacter {
