@@ -76,7 +76,7 @@ header {
 	background-image: url("../images/header-pattern.jpg");
 	overflow: hidden;
 	padding: 40px 0px 40px 0px;
-	box-shadow: 0px 0px 2px 0px;
+	box-shadow: 0px 0px 2px 0px;s
 }
 
 nav li {
@@ -147,7 +147,7 @@ div.content-left {
 	line-height: 48px;
 }
 
-a.read-more {
+a.more {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 24px;
@@ -156,19 +156,10 @@ a.read-more {
 	text-align: right;
 	display: block;
 	margin-top: 20px;
-	cursor: pointer; 
 }
 
-a.read-more:hover {
+a.more:hover {
 	color: #98111d;
-}
-
-a.read-more span.less {
-	display: none;
-}
-
-.toggle {
-	display: none;
 }
 
 .firstcharacter {
